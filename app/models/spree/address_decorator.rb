@@ -12,11 +12,8 @@ module Spree
     
     
     def require_number?
-        true
+        false
     end
-    
-    
-    
-    
+        
   end
 end
