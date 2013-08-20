@@ -5,7 +5,8 @@ module Spree
     
     
     def concat
-      self.bill_address.address1 = self.bill_address.address1 + ", " + self.ship_address.number
+      self.bill_address.address1 = self.bill_address.address1 + ", " + self.bill_address.number
+      #self.bill_address.address1 = self.bill_address.address1 + ", " + self.ship_address.number
     end
 
   end
